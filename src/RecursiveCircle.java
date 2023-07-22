@@ -1,5 +1,7 @@
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.Graphics;
+import java.awt.Dimension;
 
 public class RecursiveCircle extends JFrame {
 
