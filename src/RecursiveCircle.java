@@ -21,8 +21,7 @@ public class RecursiveCircle extends JFrame {
         var panel = new JPanel() {
             @Override
             public void paint(Graphics g) {
-                super.paint(g);                                      // 200
-                //drawRecursiveCircles(g, WIDTH / 2, HEIGHT / 2, 80, MAX_DEPTH);
+                super.paint(g);
                 drawRecursiveCircles(g, getWidth() / 2, getHeight() / 2, radius, MAX_DEPTH);
             }
 
